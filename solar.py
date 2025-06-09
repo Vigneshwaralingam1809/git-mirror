@@ -13,7 +13,7 @@ print("First 5 rows of the dataset:")
 print(df.head())
 
 # Features and target
-X = df[['Temperature', 'Sunlight_Hours', 'Humidity']]  # Input features
+X = df[['Temperature', 'Sunlight_Hours', 'Humidity']]  # Input
 y = df['Power_Output']  # Target variable
 
 # Split the data
@@ -43,4 +43,3 @@ plt.grid(True)
 plt.tight_layout()
 plt.savefig("solar_power_prediction_plot.png")  # Saves the plot
 plt.show()
-
